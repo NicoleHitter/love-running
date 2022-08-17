@@ -71,7 +71,7 @@ h1,h2 {
     color: #fff;
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
@@ -118,14 +118,14 @@ h1,h2 {
 }
 
 #left-about {
-    padding-top: 30px ;
+    padding-top: 30px;
     width: 33%;
     float: left;
     
 }
 
-#right-about{
-    padding-top: 30px ;
+#right-about {
+    padding-top: 30px;
     width: 33%;
     float: right; 
     
@@ -133,7 +133,7 @@ h1,h2 {
 
 #center-about {
     width: 33%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 hr {
@@ -144,41 +144,41 @@ hr {
 
 .left-about-heading {
     width: 60%;
-    float:right;
+    float: right;
     line-height: 20px;
-    clear:both;
+    clear: both;
     margin-bottom: 50px;
 }
 
 .right-about-heading {
     width: 60%;
-    float:left;
+    float: left;
     line-height: 20px;
-    clear:both;
+    clear: both;
     margin-bottom: 50px; 
 }
 
 .right-about-heading h2 {
     text-align: right;
 }
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
     font-size:  280%;
 }
 
-#circle-container{
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 0 auto;
 }
 
@@ -190,7 +190,7 @@ hr {
 }
 
 /* event times */
-#times{
+#times {
    background-image: url('../images/times-background.webp');
    background-repeat: no-repeat;
    background-size: cover;
@@ -199,7 +199,7 @@ hr {
    overflow: hidden;
 }
 
-#times div{
+#times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -213,4 +213,25 @@ hr {
 
 #times h2{
     color:#fafafa;
+}
+
+/* footer */
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
